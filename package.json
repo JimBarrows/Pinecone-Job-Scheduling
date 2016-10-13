@@ -1,0 +1,30 @@
+{
+  "name": "PineconeJobScheduleing",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://gitlab.com/ReallyBigTree/Pinecone-Destination-Facebook/issues",
+    "email": "jim@reallybigtree.com"
+  },
+  "scripts": {},
+  "author": {
+    "name": "Jim Barrows",
+    "email": "jim@reallybigtree.com"
+  },
+  "contributors": [],
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/ReallyBigTree/pinecone-job-scheduling"
+  },
+  "dependencies": {
+    "@reallybigtree/pinecone-models": "^1.4.2",
+    "agenda": "^0.9.0",
+    "amqplib": "^0.4.2",
+    "axios": "^0.15.0",
+    "moment": "^2.15.1",
+    "mongoose": "^4.6.3",
+    "nodemon": "^1.11.0"
+  }
+}
