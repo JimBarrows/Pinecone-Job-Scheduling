@@ -85,6 +85,7 @@ describe("WordPress schedule", function () {
 											.then((channel) => channel.assertQueue("wordpress")
 													.then((ok)=> channel.get("wordpress")))
 											.then((message) => {
+												console.log("message: ", message);
 												expect(message).to.not.be.false;
 												console.log("message: ", message);
 												done();

@@ -8,6 +8,7 @@ var BlogPost       = PineconeModels.BlogPost;
 var Campaign       = PineconeModels.Campaign;
 var moment         = require("moment");
 var mongoose       = require("mongoose");
+var enqueBlogPosts = require("./wordpressJobs");
 
 console.log("Loading agenda");
 var mongoConnectionString = "mongodb://mongo/agenda";
